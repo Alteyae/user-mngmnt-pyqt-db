@@ -1,4 +1,4 @@
-# Modern PyQt5 User Management System
+# User Management System with PyQt5 and DB connection
 
 A sleek, modern desktop application built with PyQt5 featuring a beautiful grayscale UI and full CRUD functionality for user management.
 
