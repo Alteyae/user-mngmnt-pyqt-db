@@ -2,7 +2,7 @@
 
 A sleek, modern desktop application built with PyQt5 featuring a beautiful grayscale UI and full CRUD functionality for user management.
 
-![Application Preview](https://via.placeholder.com/800x600/f8f9fa/212529?text=Modern+PyQt5+User+Management)
+![Logo](user-mgmt-system.png)
 
 ## Features
 
