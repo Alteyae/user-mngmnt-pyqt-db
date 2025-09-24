@@ -311,4 +311,5 @@ For additional help, please create an issue with:
 - Full error message (if any)
 
 CREDITS TO ALTHEAE OWE
+
 # user-mngmnt-pyqt-db

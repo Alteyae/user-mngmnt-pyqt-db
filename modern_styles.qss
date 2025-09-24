@@ -1,0 +1,277 @@
+/* CREDITS TO ALTHEAE OWE. DISTRIBUTE FOR IT5 COURSES  */
+
+/* Main Window */
+#mainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #f8f9fa, stop:1 #e9ecef);
+    color: #212529;
+}
+
+/* Typography */
+#mainTitle {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #212529;
+    margin: 10px 0;
+}
+
+#subtitle {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+#sectionTitle {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+#inputLabel {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+/* Containers with Glass Morphism Effect */
+#inputContainer {
+    background: rgba(248, 249, 250, 0.9);
+    border: 1px solid rgba(206, 212, 218, 0.5);
+    border-radius: 12px;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+}
+
+#tableContainer {
+    background: rgba(248, 249, 250, 0.9);
+    border: 1px solid rgba(206, 212, 218, 0.5);
+    border-radius: 12px;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+}
+
+/* Separator */
+#separator {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 transparent, stop:0.5 rgba(173,181,189,0.6), stop:1 transparent);
+    height: 1px;
+    border: none;
+    margin: 10px 0;
+}
+
+/* Modern Input Fields */
+#modernInput {
+    background: rgba(233, 236, 239, 0.8);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #212529;
+    min-height: 20px;
+    transition: all 0.3s ease;
+}
+
+#modernInput:focus {
+    border: 2px solid #495057;
+    background: rgba(222, 226, 230, 0.9);
+    outline: none;
+}
+
+#modernInput:hover {
+    background: rgba(222, 226, 230, 0.9);
+}
+
+#modernInput::placeholder {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Animated Button */
+#animatedButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #495057, stop:1 #343a40);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #f8f9fa;
+    min-height: 20px;
+    min-width: 120px;
+}
+
+#animatedButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #343a40, stop:1 #212529);
+    transform: translateY(-1px);
+}
+
+#animatedButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #212529, stop:1 #343a40);
+    transform: translateY(0px);
+}
+
+/* Modern Table */
+#modernTable {
+    background: rgba(248, 249, 250, 0.9);
+    alternate-background-color: rgba(233, 236, 239, 0.6);
+    border: 1px solid rgba(173, 181, 189, 0.4);
+    border-radius: 8px;
+    gridline-color: rgba(206, 212, 218, 0.3);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 13px;
+    color: #212529;
+    selection-background-color: rgba(108, 117, 125, 0.3);
+}
+
+#modernTable::item {
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid rgba(206, 212, 218, 0.3);
+}
+
+#modernTable::item:selected {
+    background: rgba(108, 117, 125, 0.3);
+    color: #f8f9fa;
+}
+
+#modernTable::item:hover {
+    background: rgba(222, 226, 230, 0.5);
+}
+
+/* Table Header */
+#modernTable QHeaderView::section {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(173, 181, 189, 0.8),
+        stop:1 rgba(108, 117, 125, 0.6));
+    color: #f8f9fa;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 12px 8px;
+    border: none;
+    border-bottom: 2px solid #495057;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#modernTable QHeaderView::section:first {
+    border-top-left-radius: 8px;
+}
+
+#modernTable QHeaderView::section:last {
+    border-top-right-radius: 8px;
+}
+
+#modernTable QHeaderView::section:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(206, 212, 218, 0.6),
+        stop:1 rgba(173, 181, 189, 0.4));
+}
+
+/* Custom Scrollbars */
+QScrollBar:vertical {
+    background: rgba(233, 236, 239, 0.5);
+    width: 12px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(108, 117, 125, 0.8);
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: rgba(73, 80, 87, 0.9);
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: rgba(52, 58, 64, 1.0);
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+/* Horizontal Scrollbar */
+QScrollBar:horizontal {
+    background: rgba(233, 236, 239, 0.5);
+    height: 12px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    background: rgba(108, 117, 125, 0.8);
+    border-radius: 6px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: rgba(73, 80, 87, 0.9);
+}
+
+/* Message Box Styling */
+QMessageBox {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #f8f9fa, stop:1 #e9ecef);
+    color: #212529;
+    border: 1px solid rgba(173, 181, 189, 0.5);
+    border-radius: 8px;
+}
+
+QMessageBox QLabel {
+    color: #212529;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+}
+
+QMessageBox QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #495057, stop:1 #343a40);
+    color: #f8f9fa;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-width: 80px;
+    margin: 2px;
+}
+
+QMessageBox QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #343a40, stop:1 #6c757d);
+}
+
+QMessageBox QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #212529, stop:1 #495057);
+}
+
+/* Tooltip Styling */
+QToolTip {
+    background: rgba(52, 58, 64, 0.95);
+    color: #f8f9fa;
+    border: 1px solid rgba(173, 181, 189, 0.6);
+    border-radius: 4px;
+    padding: 8px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+}
