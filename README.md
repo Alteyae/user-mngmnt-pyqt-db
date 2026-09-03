@@ -1,6 +1,6 @@
 # User Management System
 A sleek, modern desktop application built with PyQt5 featuring a beautiful grayscale UI and full CRUD functionality for user management.
-Built for my students!
+A boiler plate built for my students!
 
 ![Logo](user-mgmt-system.png)
 
